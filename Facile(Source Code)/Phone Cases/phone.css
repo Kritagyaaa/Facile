@@ -1,0 +1,240 @@
+
+body{
+    margin: 0;
+    /* background-image: url("https://i.postimg.cc/0NNmmNNP/A-cute-neutral-wallpaper-wallpaper-iphone-beige-neutral-minimalisticaesthetic-in-1.jpg"); */
+    background-color:#e9e5dc;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+.fav{
+  margin-right: 1rem;
+}
+
+p{
+    margin: 0;
+}
+
+.menu{
+    display: none;
+    padding: 0.6rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.header{
+    margin-top: 0;
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.name{
+
+font-family: homemade apple;
+    font-size: 45px;
+    margin-right: 2rem;
+
+}
+
+.tagLine{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nameAndRegion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchAndProfile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.signUp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Profile{
+    margin-left: 1rem;
+    display: flex;
+}
+
+.category{
+    text-align: center;
+    font-size: large;
+  font-family: League Spartan ;
+}
+
+.categorysubheadings > p{
+    padding: 8px;
+}
+
+
+.categoryHeading{
+    padding: 8px;
+}
+
+.categorysubheadings{
+    display: none;
+    position: absolute;
+}
+
+.categoryHeading:hover .categorysubheadings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.postimg.cc/0NNmmNNP/A-cute-neutral-wallpaper-wallpaper-iphone-beige-neutral-minimalisticaesthetic-in-1.jpg");
+}
+
+
+.category:hover .categoryHeading{
+    background-color: #ddd4d4b7;
+}
+
+.majorDiscount{
+    height: 89vh;
+    box-sizing: border-box;
+
+}
+
+.header2{
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categorysubheadings > p:hover{
+    background-color: #b3abab93;
+
+}
+
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.title{
+    text-align:center ;
+    font-size: 4rem;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.container{
+    padding: 4rem;
+    justify-content:space-evenly;
+    display: flex ;
+    justify-content:space
+
+}
+.head{
+    margin-top: 4rem;
+    color: #3d251e ;
+}
+
+
+.feedback{
+    width: 40%;
+    text-align: center;
+  color: #3d251e;
+
+}
+
+.heading{
+    font-size: 2.5rem;
+}
+
+
+.fc{
+    font-size: 1.5rem;
+    background-color:#ffffeb6c;
+    margin: 1rem;
+    border-radius: 10px;
+
+}
+
+.insta_container
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    color: #3d251e;
+}
+
+
+.feedbackContainer{
+    box-sizing: border-box;
+    height: 513px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ddb99c;
+    height: 15vh;
+    padding: 4rem;
+}
+
+.joinUs{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 1rem 6rem;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+
+.joinUs:hover {
+    background-color: #ffffeb6c;
+}
+
+.footerData{
+    width: 50%;
+    font-size: x-large;
+}
+
+.submitFeedback{
+
+    font-weight: bold;
+    text-decoration: none;
+    background-color:#ffffeb6c;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.submitFeedback:hover{
+    background-color: #ffd1b5;
+}
