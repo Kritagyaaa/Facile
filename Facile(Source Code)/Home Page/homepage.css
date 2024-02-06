@@ -420,8 +420,13 @@
         font-size: xx-large;
       }
 
+      .joinUs{
+	    padding: 1rem 4rem;
+	}
+
       .aboutData{
         font-size: large;
+        text-align: justify;
       }
 
       .heading{
@@ -445,6 +450,7 @@
       .footerData{
         font-size: large;
         padding: 1rem;
+        text-align: center;
       }
 
       .majorDiscount{
